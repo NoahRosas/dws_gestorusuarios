@@ -9,8 +9,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         <title></title>
     </head>
     <body>
+        <form action="index.php" method="POST">
+            <label>Nombre de usuario:</label>
+            <input type="text" name="usuario">
+            <br>
+            <label>Contraseña:</label>
+            <input type="password" name="passwd">
+            <input type="submit">
+        </form>
         <?php
         echo "Bienvenido al Gestor de usuarios"
+        
         ?>
     </body>
 </html>
