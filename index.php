@@ -11,10 +11,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     <body>
         <form action="index.php" method="POST">
             <label>Nombre de usuario:</label>
-            <input type="text" name="usuario">
+            <input type="text" name="usuario" required>
             <br>
             <label>Contraseña:</label>
-            <input type="password" name="passwd">
+            <input type="password" name="passwd" required>
             <input type="submit">
         </form>
         <?php
